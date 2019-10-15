@@ -23,6 +23,81 @@ body{
             -webkit-text-fill-color: aliceblue;
             border-color: aliceblue;
         }       
+
+        .b2 {
+            
+            border-radius: 40px;
+            background-color: rgb(251, 198, 208);
+            -webkit-text-fill-color: rgb(239, 61,97);
+            border-color: rgb(251, 198, 208);
+            font-family: sans-serif;
+            width: 10vw;
+            height: 2.3vw;
+            align-items: left ;
+            font-size: 1.15vw;
+            font-weight: bold;
+            text-align: center;
+            vertical-align: middle;
+            text-justify: inter-word;
+            line-height: 30px;
+            }
+
+            .b3 {
+            
+                border-radius: 30px;
+                background-color: rgba(255, 255, 255,0.5);
+                -webkit-text-fill-color: white;
+                border-color: rgb(251, 198, 208);
+                font-family: sans-serif;
+                width: 12vw;
+                height: 3vw;
+                align-items: left ;
+                font-size: 1.15vw;
+                font-weight: bold;
+                text-align: center;
+                vertical-align: middle;
+                line-height: 35px;
+                
+                }
+
+                .b3 p{
+                }
+
+        h3 {
+            font-family: sans-serif;
+            
+
+        }
+
+        h5 {
+            font-size:1.1vw;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .child11 {
+            
+        }
+
+        pre {
+            text-align: left;
+            font-size: 1.25vw;
+        }
+
+        
+        h1 {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 3.7vw;
+            text-align: left;
+        }
+
+        
+        .h31 {
+            margin-right: 47%;
+        }
+
+        ul{
+            margin-left: -5%;
+        }        
 /*-----------------------------------*/
 
 .sticky{
@@ -141,6 +216,9 @@ body{
         }
 
         @media screen and (max-width: 650px){
+            .boxa{
+                height: 150%;
+            }
             .boxa .child1 {
                 width: 100%;
                 height: 40%;
@@ -152,10 +230,11 @@ body{
                 height: 60%;
             }
             .boxa h1 {
-                font-size: 90%;
+                font-size: 220%;
             }
             .boxa .p1 {
-                font-size: 60%;
+                font-size: 90%;
+                line-height: 3vw;
             }
         }
 
@@ -241,6 +320,10 @@ body{
 .child12 .b2{
     width: 17vw;
 }
+
+@media screen and (max-width: 650px){
+
+}
      /*-----------------------------------------*/
 
            .boxc{
@@ -270,7 +353,8 @@ body{
            .boxc .childc {
                height: 65%;
                width: 40%;
-               
+               border: 1px solid black;
+
                align-self: flex-end;
 
            }
@@ -296,6 +380,17 @@ body{
 
            .childc .b2{
                width: 10vw;
+           }
+
+           @media screen and (max-width: 650px){
+            .boxc{height: auto;}
+            .boxc .childc {
+                width: 100%;
+                height: auto;
+            }   
+            .boxc h3{
+                   font-size: 200%;
+               }
            }
 
         /*-----------------------------------*/
@@ -368,19 +463,25 @@ body{
                 }
 
                 .box1 h3 {
-                    font-size: 90%;
+                    font-size: 200%;
                 }
 
                 .p3{
-                    font-size: 50%;
+                    font-size: 90%;
                 }
                 .box1 .child1{
                     width: 100%;
                     height:40%;
+                   
+                }
+
+                .box1 ul{
+                    font-size: 80%;
                 }
                 .box1 .child2 {
                     height: 60%;
                     width: 100%;
+                    margin-left: 0;
                 }
             }
 
@@ -442,7 +543,20 @@ body{
             height: 100%;
         }
 
+        @media screen and (max-width: 650px){
+            .box2{height:160% ;}
+            .box2 .child1{
+                width: 100%;
+                height: 50%
+            }
 
+            .box2 h3{font-size: 160%;
+                    }
+            .box2 ul{font-size: 70%;}      
+            .box2 .b1{width:25%;
+            
+            }  
+        }
         /*-----------------------------------*/
 
 
@@ -528,7 +642,16 @@ body{
             line-height: 2.3vw;
         }
 
+        @media screen and (max-width: 650px){
+            .box4 .child5 {width: 100%;}
+        
 
+        .child5 p{font-size: 70%;}
+        .child5 .b1{font-size: 70%;
+                width: 20%;
+            height: 5%;}
+
+        }
 
         /*-----------------------------------*/
         .box5 { 
@@ -660,79 +783,20 @@ body{
 
         
 
-        .b2 {
-            
-            border-radius: 40px;
-            background-color: rgb(251, 198, 208);
-            -webkit-text-fill-color: rgb(239, 61,97);
-            border-color: rgb(251, 198, 208);
-            font-family: sans-serif;
-            width: 10vw;
-            height: 2.3vw;
-            align-items: left ;
-            font-size: 1.15vw;
-            font-weight: bold;
-            text-align: center;
-            vertical-align: middle;
-            text-justify: inter-word;
-            line-height: 30px;
+
+
+        @media screen and (max-width: 650px){
+            h1{
+                font-size: 200%;
+
             }
-
-            .b3 {
-            
-                border-radius: 30px;
-                background-color: rgba(255, 255, 255,0.5);
-                -webkit-text-fill-color: white;
-                border-color: rgb(251, 198, 208);
-                font-family: sans-serif;
-                width: 12vw;
-                height: 3vw;
-                align-items: left ;
-                font-size: 1.15vw;
-                font-weight: bold;
-                text-align: center;
-                vertical-align: middle;
-                line-height: 35px;
+            p {font-size: 70%;}
+            pre {font-size: 70%;}
+            h3 {font-size: 160%;}
+            .b1{font-size: 30%;
+                width: 10%;}
                 
-                }
 
-                .b3 p{
-                }
-
-        h3 {
-            font-family: sans-serif;
-            
-
-        }
-
-        h5 {
-            font-size:1.1vw;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        .child11 {
-            
-        }
-
-        pre {
-            text-align: left;
-            font-size: 1.25vw;
-        }
-
-        
-        h1 {
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            font-size: 3.7vw;
-            text-align: left;
-        }
-
-        
-        .h31 {
-            margin-right: 47%;
-        }
-
-        ul{
-            margin-left: -5%;
         }
 
         
