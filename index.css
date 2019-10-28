@@ -1,3 +1,8 @@
+*{
+    
+    font-size: 1vw;
+}
+
 body{
             background-color:rgb(231, 233, 238);
             overflow: auto;
@@ -5,16 +10,17 @@ body{
             
         }
  .b1 {
-            border-radius: 20vw;
+            border-radius: 20rem;
             background-color: white;
             -webkit-text-fill-color: black;
             border-color: black;
             font-family: sans-serif;
-            width: 10vw;
-            height: 3.8vw;
+            width: max-content;
+            padding: 3%;
+            height: 3.8rem;
             cursor: pointer;
             align-items: left;
-            font-size: 1.2vw;
+            font-size: 1.2rem;
             opacity: 0.7;
         }
 
@@ -31,15 +37,14 @@ body{
             -webkit-text-fill-color: rgb(239, 61,97);
             border-color: rgb(251, 198, 208);
             font-family: sans-serif;
-            width: 10vw;
-            height: 2.3vw;
+            width: max-content;
+            height: 3.8rem;
             align-items: left ;
-            font-size: 1.15vw;
+            font-size: 1.15rem;
             font-weight: bold;
             text-align: center;
             vertical-align: middle;
-            text-justify: inter-word;
-            line-height: 30px;
+            line-height: 4rem;
             }
 
             .b3 {
@@ -49,14 +54,14 @@ body{
                 -webkit-text-fill-color: white;
                 border-color: rgb(251, 198, 208);
                 font-family: sans-serif;
-                width: 12vw;
-                height: 3vw;
+                width: 12rem;
+                height: 3rem;
                 align-items: left ;
-                font-size: 1.15vw;
+                font-size: 1.15rem;
                 font-weight: bold;
                 text-align: center;
                 vertical-align: middle;
-                line-height: 35px;
+                line-height: 3rem;
                 
                 }
 
@@ -70,7 +75,7 @@ body{
         }
 
         h5 {
-            font-size:1.1vw;
+            font-size:1.1rem;
             font-family: Arial, Helvetica, sans-serif;
         }
 
@@ -80,13 +85,13 @@ body{
 
         pre {
             text-align: left;
-            font-size: 1.25vw;
+            font-size: 1.25rem;
         }
 
         
         h1 {
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            font-size: 3.7vw;
+            font-size: 3.7rem;
             text-align: left;
         }
 
@@ -103,7 +108,7 @@ body{
 .sticky{
     position: sticky;
     width: 100%;
-    height: 18%;
+    height: 9rem;
     background-color: white;
     box-shadow: 2px 0 10px grey;
     z-index: 1;
@@ -131,8 +136,9 @@ body{
 
 .sticky a{
     text-decoration: none;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 1.1vw;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 
+    'Helvetica Neue', sans-serif;
+    font-size: 1.1rem;
     font-weight: bold;
     align-items: center;
     
@@ -145,7 +151,6 @@ body{
 .st2 {
     height: 100%;
     width: 30%;
-    
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -172,9 +177,9 @@ body{
         .boxa  {
             display: flex;
             width: 99%;
-            height: 99%;
+            height: 50rem;
             background-color: white;
-            margin-bottom:1%; 
+            margin-bottom:.8rem; 
             margin-left: .5%;
             align-items: center;
             justify-content: space-between;
@@ -187,17 +192,18 @@ body{
         .p1 {
             font-family: sans-serif;
             opacity: 0.7;
-            
-            line-height: 2.3vw;
+            font-size: 1.4rem;
+
+            line-height: 2.3rem;
             text-align: left;
         }
 
         .p2 {
             font-family: sans-serif; 
-            font-size: 1vw;
+            font-size: 1.4rem;
             opacity: 0.7;
             text-align: left;
-            line-height: 2.3vw
+            line-height: 2.3rem
         }
 
         .child2{
@@ -215,34 +221,14 @@ body{
             
         }
 
-        @media screen and (max-width: 650px){
-            .boxa{
-                height: 150%;
-            }
-            .boxa .child1 {
-                width: 100%;
-                height: 40%;
+        
 
-
-            }
-            .boxa .child2 {
-                width: 100%;
-                height: 60%;
-            }
-            .boxa h1 {
-                font-size: 220%;
-            }
-            .boxa .p1 {
-                font-size: 90%;
-                line-height: 3vw;
-            }
-        }
 
         /*-----------------------------------------*/
              .boxb{
                 display: flex;
                 width: 99%;
-                height: 160%;
+                height: 80rem;
                 background-color: white;
                 margin-bottom:1%; 
                 margin-left: .5%;
@@ -301,29 +287,28 @@ body{
 .boxb p{
     opacity: 0.65;
             font-family: sans-serif;
-            line-height: 2.3vw;
+            line-height: 2.3rem;
 }        
 
 .boxb h3{
     font-family: sans-serif;
-    font-size: 1.7vw;
-    margin-top: 1vw;
+    font-size: 1.7rem;
+    margin-top: 1rem;
 }
 
 .child12 h1{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 3.3vw;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 
+    'Helvetica Neue', sans-serif;
+    font-size: 3.3rem;
     font-weight: 600;
 
 }
 
 .child12 .b2{
-    width: 17vw;
+    width: 17rem;
 }
 
-@media screen and (max-width: 650px){
 
-}
      /*-----------------------------------------*/
 
            .boxc{
@@ -334,7 +319,7 @@ body{
                background-position-y: bottom;
                display: flex;
                width: 99%;
-               height: 145%;
+               height: 72rem;
                margin-bottom:1%; 
                margin-left: .5%;
                justify-content: space-between;
@@ -346,15 +331,13 @@ body{
            }
 
            .boxc .b2{
-               width: 22vw;
+               width: 22rem;
                margin-top: 5%;
            }
 
            .boxc .childc {
                height: 65%;
                width: 40%;
-               
-
                align-self: flex-end;
 
            }
@@ -362,36 +345,28 @@ body{
            .boxc p{
             opacity: 0.65;
             font-family: sans-serif;
-            line-height: 2.3vw;
-            margin-top: -.5vw;
+            line-height: 2.3rem;
+            margin-top: -.5rem;
            }
 
            .boxc h3{
                font-family: sans-serif;
-               font-size: 3vw;
-               margin-top: 1vw;
+               font-size: 3rem;
+               margin-top: 1rem;
            }
 
            .boxc ul {
-               line-height: 2vw;
-               font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-               font-size: 1.3vw;
+               line-height: 2rem;
+               font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 
+               'Helvetica Neue', sans-serif;
+               font-size: 1.3rem;
            }
 
            .childc .b2{
-               width: 10vw;
+               width: 10rem;
            }
 
-           @media screen and (max-width: 650px){
-            .boxc{height: auto;}
-            .boxc .childc {
-                width: 100%;
-                height: auto;
-            }   
-            .boxc h3{
-                   font-size: 200%;
-               }
-           }
+           
 
         /*-----------------------------------*/
 
@@ -399,7 +374,7 @@ body{
         .box1 { 
             display: flex;
             width: 99%;
-            height: 95%;
+            height: 50rem;
             background-color: white;
             margin-bottom: 1%;
             margin-left: .5%;
@@ -416,14 +391,14 @@ body{
         }
 
         .box1 .b2{
-            
+            width: 10rem;
         }
 
         .box1 .child1{
             width: 40%;
             
             text-align: left;
-            margin-left: 4vw;
+            margin-left: 4rem;
         
         }
 
@@ -434,14 +409,14 @@ body{
         .box1 ul {
             text-align: left;
             margin-left: -5%;;
-            font-size: 1.3vw;
-            line-height: 2vw;
+            font-size: 1.3rem;
+            line-height: 2rem;
 
         }
 
         .box1 h3 {
             
-            font-size: 2vw;
+            font-size: 2rem;
         }
 
         .box1 .child2 img {
@@ -453,37 +428,11 @@ body{
                 text-align: left;
                 opacity: 0.65;
                 font-family: sans-serif;
-                font-size: 1.2vw;
-                line-height: 2.3vw;
+                font-size: 1.2rem;
+                line-height: 2.3rem;
             }
 
-            @media screen and (max-width: 650px){
-                .box1{
-                    height: 150%;
-                }
-
-                .box1 h3 {
-                    font-size: 200%;
-                }
-
-                .p3{
-                    font-size: 90%;
-                }
-                .box1 .child1{
-                    width: 100%;
-                    height:40%;
-                   
-                }
-
-                .box1 ul{
-                    font-size: 80%;
-                }
-                .box1 .child2 {
-                    height: 60%;
-                    width: 100%;
-                    margin-left: 0;
-                }
-            }
+           
 
         /*------------------------------------------*/
 
@@ -491,7 +440,7 @@ body{
         .box2 { 
             display: flex;
             width: 99%;
-            height: 85%;
+            height: 43rem;
             background-color: white;
             margin-bottom: 1%;
             margin-left: .5%;
@@ -507,28 +456,32 @@ body{
         .box2 ul {
             text-align: left;
             
-            font-size: 1.3vw;
-            line-height: 2vw;
+            font-size: 1.3rem;
+            line-height: 2rem;
             list-style-type: symbols(angle-right);
 
         }
 
         .p4 {
-            margin-left: 0vw; 
+            margin-left: 0rem; 
             opacity: 0.65;
             font-family: sans-serif;
-            line-height: 2.3vw;
+            line-height: 2.3rem;
         }
 
         .child3 {
             text-align: left;  
-            margin-right: 5vw;
+            margin-right: 5rem;
             width: 40%;
             justify-content: space-between;
         }
 
+        .box2 .b2{
+            width: 11rem;
+        }
+
         .child3 h3{
-            font-size: 2vw;
+            font-size: 2rem;
         }
 
         .box2 .child1{
@@ -543,27 +496,14 @@ body{
             height: 100%;
         }
 
-        @media screen and (max-width: 650px){
-            .box2{height:160% ;}
-            .box2 .child1{
-                width: 100%;
-                height: 50%
-            }
-
-            .box2 h3{font-size: 160%;
-                    }
-            .box2 ul{font-size: 70%;}      
-            .box2 .b1{width:25%;
-            
-            }  
-        }
+        
         /*-----------------------------------*/
 
 
         .box3 { 
             display: flex;
             width: 99%;
-            height: 85%;
+            height: 43rem;
             background-color: white;
             margin-bottom: 1%;
             margin-left: .5%;
@@ -581,8 +521,8 @@ body{
 
         .p5 {
             text-align: center;
-            line-height: 2.3vw;
-            margin-right: 1.5vw;
+            line-height: 2.3rem;
+            margin-right: 1.5rem;
         }
 
         .child4 {
@@ -608,7 +548,7 @@ body{
         .box4 { 
             display: flex;
             width: 99%;
-            height: 99%;
+            height: 50rem;
             background-color: white;
             margin-bottom: 1%;
             margin-left: .5%;
@@ -631,33 +571,24 @@ body{
         }
 
         .child5 img {
-            height:3vw;
-            width: 3vw;
+            height:3rem;
+            width: 3rem;
         }
 
         .child5 p{
             font-family: sans-serif;
             opacity: 0.6;
-            font-size: 1.2vw;
-            line-height: 2.3vw;
+            font-size: 1.2rem;
+            line-height: 2.3rem;
         }
 
-        @media screen and (max-width: 650px){
-            .box4 .child5 {width: 100%;}
         
-
-        .child5 p{font-size: 70%;}
-        .child5 .b1{font-size: 70%;
-                width: 20%;
-            height: 5%;}
-
-        }
 
         /*-----------------------------------*/
         .box5 { 
             display: flex;
             width: 100%;
-            height: 90%;
+            height: 45rem;
             background-color:#EF3D5B;
             
             
@@ -699,15 +630,15 @@ body{
 
         .box5 h1{
             -webkit-text-fill-color: white;
-            font-size: 3vw;
+            font-size: 3rem;
             
         }
 
         .box5 p{
             -webkit-text-fill-color: white;
             font-family: sans-serif;
-            font-size: 1.5vw;
-            line-height: 2.3vw;
+            font-size: 1.5rem;
+            line-height: 2.3rem;
             margin-top: -3%;
         }
 
@@ -716,8 +647,8 @@ body{
             background-color: white;
             -webkit-text-fill-color: black;
             opacity: 1;
-            width: 11vw;
-            height: 4vw;
+            width: 11rem;
+            height: 4rem;
 
         }
 
@@ -731,7 +662,7 @@ body{
 
         /*------------------------------------------*/
          .box6 {
-             height: 70%;
+             height: 35rem;
              width: 100%;
              background-color: black;
              display: flex;
@@ -749,17 +680,17 @@ body{
              -webkit-text-fill-color: white;
              font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
              'Open Sans', 'Helvetica Neue', sans-serif;
-             font-size: 1.25vw;
+             font-size: 1.25rem;
              font-weight: bold;
          }
 
          .child6 a{
              -webkit-text-fill-color: white;
-             font-size: 1.2vw;
+             font-size: 1.2rem;
              font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
              'Open Sans', 'Helvetica Neue', sans-serif;
              text-decoration: none;
-             line-height: 2vw;
+             line-height: 2rem;
              
 
          }
@@ -777,28 +708,18 @@ body{
          }
 
         /*------------------------------------------*/
+p {
+    font-size: 1.4rem;
+}
 
-
-        
-
-        
-
-
-
-        @media screen and (max-width: 650px){
-            h1{
-                font-size: 200%;
-
-            }
-            p {font-size: 70%;}
-            pre {font-size: 70%;}
-            h3 {font-size: 160%;}
-            .b1{font-size: 30%;
-                width: 10%;}
-                
-
-        }
-
+@media screen and (max-width:400px){
+    
+    .boxa{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
         
 
         
